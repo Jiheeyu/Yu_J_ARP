@@ -5,7 +5,7 @@
 
 ### Getting Started
 
-:point_right:*_Click [here](https://docs.google.com/document/d/1vnUhqMDEk7ZXBvKcLAbdtOQKnog-mhB0xGYtVeJwvDg/edit?usp=sharing)_*  
+:point_right:*_Click [here](https://docs.google.com/document/d/1yx5sv0Tcp6HFlSI5UOk5qLYTCp5tMbmleIJ5eOeSlGA/edit)_*  
 If you would like to see my developer roadmap.
 
 ### Prerequisites
