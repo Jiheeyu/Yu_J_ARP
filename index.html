@@ -17,14 +17,84 @@
         <h1>Accessbility Research Project</h1>
         <section class="movie-tv">
             <h2>Movies and TV Shows</h2>
-            <p>Show Transcripts to users and make customized video settings with high contrast</p>
-            <div class="controls">
-                <button class="playButton button"><img src="images/play.svg" alt="Play Button"></button>
-                <button class="playButton button"><img src="images/stop.svg" alt="Play Button"></button>
-                <button class="playBack button"><img src="images/forward.svg" alt="Play Forward Button"></button>
-                <button class="playForward button"><img src="images/forward.svg" alt="Play Backward Button"></button>
-                <div class="time">00:00</div>
+            <p>Show Transcripts to users and make customized video settings with high contrast.</p>
+            <p>Large icons with high contrast colors would help users with visual impairment to see things clearly and
+                better.</p>
+            <p>Use "title" and "alt" for all media files to assist screen readers.</p>
+            <div class="videoWrapper">
+                <video controls>
+                    <source src="videos/joker_part1.mp4" type="video/mp4" class="videoSource">
+                </video>
+                <div class="controls">
+                    <button class="playButton button" title="Play/Pause"><img src="images/play.svg"
+                            alt="Play Button"></button>
+                    <button class="stopButton button" title="Stop"><img src="images/stop.svg"
+                            alt="Play Button"></button>
+                    <button class="playBack button" title="Play Back"><img src="images/forward.svg"
+                            alt="Play Forward Button"></button>
+                    <button class="playForward button" title="Play Forward"><img src="images/forward.svg"
+                            alt="Play Backward Button"></button>
+                    <button class="playAnother button">Play Next Episode</button>
+                    <button class="showButton button">Need Transcript?</button>
+                </div>
+                <div class="transcript hidden">
+                    <p class="transcriptContent">
+                        MURRAY FRANKLIN
+                        Yeah, that's not funny, that's not
+                        the kind of humor we do on this
+                        show.
+
+                        JOKER
+                        Sorry. It's been a rough few
+                        months, Murray. I mean, after my
+                        mother died, the police came to
+                        question me at her funeral. Who
+                        does that?
+
+                        MURRAY FRANKLIN
+                        Oh really? Were you a suspect?
+                        The audience laughs.
+
+                        JOKER
+                        Very funny, Murray. No, they came
+                        because I killed those three Wall
+                        Street guys.
+                    </p>
+                </div>
             </div>
+        </section>
+        <section class="music">
+            <h2>Music</h2>
+            <p>Display lyrics for users with hearing impairment.</p>
+            <h3>Can't Stop Falling In Love With You</h3>
+            <h4>Elvis Presley</h4>
+            <div>
+                <img src="images/elvis_album.jpg" alt="Elvis Album">
+                <div class="lyrics">
+                    <p>Wise men say
+                        Only fools rush in
+                        But I can't help falling in love with you
+                        Shall I stay?
+                        Would it be a sin
+                        If I can't help falling in love with you?
+                        Like a river flows
+                        Surely to the sea
+                        Darling, so it goes
+                        Some things are meant to be
+                        Take my hand
+                        Take my whole life too
+                        For I can't help falling in love with you
+                        Like a river flows
+                        Surely to the sea
+                        Darling, so it goes
+                        Some things are meant to be
+                        Take my hand
+                        Take my whole life too
+                        For I can't help falling in love with you
+                        For I can't help falling in love with you</p>
+                </div>
+            </div>
+            <audio src="videos/elvis_song.mp3" controls></audio>
         </section>
     </main>
     <script src="js/main.js"></script>
