@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    h1 {
+        padding-left: 50px;
+    }
+}
+
+h1, h2, h3{
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+}
+
+.movie-tv {
+    background-color: $yellow;
+    padding: 50px;
+    .button{
+        background-color: $green;
+        border-radius: 15px;
+        padding: 5px;
+        cursor: pointer;
+        img {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        overflow: hidden;
+        }
+    }
+    .button:hover {
+        background-color: $blue;
+    }
+    .playBack{
+        transform: rotateY(180deg);
+    }
+}
